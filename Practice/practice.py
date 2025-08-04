@@ -136,7 +136,7 @@ def interavtive_camera_filters():
 
 def motion_detection_camera():
     """Simple motion detection using background subtraction"""
-    cap = cv2.VideoCapture(1)
+    cap = cv2.VideoCapture(0)
 
     if not cap.isOpened():
         print("Error: Camera is not opened")

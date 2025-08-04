@@ -4,7 +4,7 @@ import numpy as np
 import imutils
 import easyocr
 
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 
 if not cap.isOpened():
     print("Error: Camera is not Opened")
