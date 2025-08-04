@@ -120,4 +120,4 @@ class IndianLicensePlateRecognizer:
 # Example usage
 if __name__ == "__main__":
     recognizer = IndianLicensePlateRecognizer()
-    recognizer.process_video_stream(1)
+    recognizer.process_video_stream(0)
